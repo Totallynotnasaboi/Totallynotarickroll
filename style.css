@@ -1,7 +1,3 @@
-#amogus {
-  width: 60%;
-}
-
 #button {
   background-color: rgb(255, 69, 69);
   padding: 15px 30px;
@@ -20,9 +16,36 @@
   text-align: center;
 }
 
+#weWantYouImage {
+  max-width: 100%;
+}
+
 .everything {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.image_lmao {
+  max-width: 40%;
+  height: auto;
+  width: auto;
+  max-height: auto;
+  justify-content: center;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media only screen and (max-width: 400px) {
+  .image_lmao {
+    max-width: 30%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .image_lmao {
+    max-width: 30%;
+  }
 }
